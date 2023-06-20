@@ -1,16 +1,28 @@
 # 一个新闻管理全栈项目
 
 > 前端使用：vue3+element-plus+axios+pinia+vue-router
+
 > 后端使用：express+element-plus+mongoDB+axios
 
 ## 安装
-```yarn install ```
+```
+yarn install
+```
 
 ## 运行
-```yarn run dev ```
+```
+前端运行：
+yarn run dev
+后端运行：
+yarn run serve
+服务器运行：
+npm run start
+```
 
 ## 打包
-```yarn run build ```
+```
+yarn run build
+ ```
 
 ## 功能介绍：
     1.可以实现前后端进行联动操作，双向绑定修改数据。
