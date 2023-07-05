@@ -9,7 +9,6 @@ import VueParticles from 'vue-particles'
 import '@/util/axios.config'
 
 
-
 const app = createApp(App)
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component)

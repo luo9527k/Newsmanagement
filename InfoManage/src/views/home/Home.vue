@@ -19,7 +19,11 @@
           </el-row>
         </el-card>
       </el-tab-pane>
-      <el-tab-pane label="Config">Config</el-tab-pane>
+      <el-tab-pane label="Config">
+          <el-card class="box-card">
+              
+          </el-card>
+      </el-tab-pane>
       <el-tab-pane label="Role">Role</el-tab-pane>
       <el-tab-pane label="Task">Task</el-tab-pane>
     </el-tabs>
@@ -64,6 +68,7 @@ const getData = async () => {
   loopList.value = res.data.data
   console.log(loopList.value)
 }
+
 </script>
 <style lang="scss" scoped>
 .box-card {
